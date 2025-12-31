@@ -1,0 +1,34 @@
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dish-image {
+  width: 100px;
+}
+
+.calories {
+  color: red;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+}
+
+.not-available {
+  color: red;
+}
+
+.customization {
+  color: #f7931e;
+}

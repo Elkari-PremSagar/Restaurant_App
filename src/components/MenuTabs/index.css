@@ -1,0 +1,16 @@
+.tabs-container {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 12px;
+  background: none;
+  border: none;
+}
+
+.active {
+  color: #f7931e;
+  border-bottom: 2px solid #f7931e;
+}
