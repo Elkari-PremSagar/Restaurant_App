@@ -1,31 +1,23 @@
-# 🍽️ Restaurant App (React)
+# 🍽️Restaurant App (React)
+A fully functional Restaurant Application built using React that allows users to browse restaurant menu items, manage a cart, and place orders. The app includes authentication, protected routes, and dynamic rendering of menu categories based on API responses.
 
-A fully functional **Restaurant Application** built using **React** that allows users to browse restaurant menu items, manage a cart, and place orders.  
-The app includes **authentication**, **protected routes**, and **dynamic rendering of menu categories** based on API responses.
-
----
-
-## 🔗 Live Links
-
-- **Live App:**  
-  👉 https://PremRestaurant.ccbp.tech
-
-- **GitHub Repository:**  
-  👉 https://github.com/Elkari-PremSagar/Restaurant_App.git
+--- 
+🔗 **Live App** : 👉 https://PremRestaurant.ccbp.tech
+🔗 **GitHub Repository**: 👉 https://github.com/Elkari-PremSagar/Restaurant_App.git 
 
 ---
-
-## 🔐 Demo Credentials
-
-Use the following credentials to log in:
-
-```json
+## 🔐 Demo Credentials Use the following credentials to log in:
+json
 {
   "username": "rahul",
   "password": "rahul@2021"
 }
+
+-----
+
 ✨ Features
 🔑 Authentication
+
 Secure login using username and password
 
 JWT token stored using cookies
@@ -34,7 +26,9 @@ Protected routes for Home and Cart
 
 Authenticated users visiting /login are redirected to Home
 
-🏠 Home Page
+---
+ 🏠 Home Page
+
 Displays restaurant name “UNI Resto Cafe”
 
 Menu categories (tabs) rendered dynamically from API
@@ -46,8 +40,10 @@ Increase / decrease dish quantity
 Add to Cart enabled only when quantity > 0
 
 Displays “Customizations available” when addons exist
+---
 
-🛒 Cart Page
+#🛒 Cart Page
+
 Shows selected cart items
 
 Increase / decrease quantity of items
@@ -62,16 +58,18 @@ Remove All Cart Items option
 
 Displays empty cart view when cart is empty
 
-🧭 Navigation
+# 🧭 Navigation
+
 Header with:
 
 Restaurant title (navigates to Home)
 
 Cart icon with item count badge
 
-Logout button
+# Logout button
 
 🧪 Test Case Compatibility
+
 ✅ All test cases passed
 
 ✅ No hardcoded tabs (API-driven UI)
@@ -82,61 +80,54 @@ Logout button
 
 ✅ Clean component structure
 
-🛠️ Tech Stack
-React
+# 🛠️ Tech Stack
 
-React Router DOM
+## React
 
-Context API
+## React Router DOM
 
-JavaScript (ES6+)
+## Context API
 
-CSS
+## JavaScript (ES6+)
 
-JWT Authentication
+## CSS
 
-REST APIs
+## JWT Authentication
 
-🔗 APIs Used
+## REST APIs
+
+## 🔗 APIs Used
 Login API
-nginx
-Copy code
 POST https://apis.ccbp.in/login
-Restaurant Menu API
-bash
-Copy code
+
+## Restaurant Menu API
 GET https://apis2.ccbp.in/restaurant-app/restaurant-menu-list-details
-📁 Project Structure
-pgsql
-Copy code
+
+# 📁 Project Structure
 src/
-├── components/
+│── components/
 │   ├── Header
 │   ├── DishItem
 │   ├── CartItem
 │   ├── NotFound
 │
-├── routes/
+│── routes/
 │   ├── Home
 │   ├── Cart
 │   ├── Login
 │
-├── context/
+│── context/
 │   └── CartContext.js
 │
-├── App.js
-└── index.js
-🚀 Getting Started
-Install Dependencies
-bash
-Copy code
-npm install
-Start the Application
-bash
-Copy code
-npm start
-🖥️ Web Interface Preview
+│── App.js
+│── index.js
 
+# 🚀 Getting Started
+Install Dependencies
+npm install
+
+# Start the Application
+npm start
 #### Web Interface
 <a href="https://res.cloudinary.com/dupvp9gj9/image/upload/v1688464566/Restaurant_page_web-view_l7snar.png" target=_blank_ >
     <div style="text-align: center;">
