@@ -15,8 +15,8 @@ json
 
 -----
 
-✨ Features
-🔑 Authentication
+# ✨ Features
+# 🔑 Authentication
 
 Secure login using username and password
 
@@ -27,7 +27,7 @@ Protected routes for Home and Cart
 Authenticated users visiting /login are redirected to Home
 
 ---
- 🏠 Home Page
+# 🏠 Home Page
 
 Displays restaurant name “UNI Resto Cafe”
 
@@ -40,9 +40,10 @@ Increase / decrease dish quantity
 Add to Cart enabled only when quantity > 0
 
 Displays “Customizations available” when addons exist
+
 ---
 
-#🛒 Cart Page
+# 🛒 Cart Page
 
 Shows selected cart items
 
@@ -58,6 +59,8 @@ Remove All Cart Items option
 
 Displays empty cart view when cart is empty
 
+---
+
 # 🧭 Navigation
 
 Header with:
@@ -66,19 +69,7 @@ Restaurant title (navigates to Home)
 
 Cart icon with item count badge
 
-# Logout button
-
-🧪 Test Case Compatibility
-
-✅ All test cases passed
-
-✅ No hardcoded tabs (API-driven UI)
-
-✅ Correct HTML semantic elements used
-
-✅ Required data-testid attributes included
-
-✅ Clean component structure
+---
 
 # 🛠️ Tech Stack
 
@@ -104,6 +95,7 @@ POST https://apis.ccbp.in/login
 GET https://apis2.ccbp.in/restaurant-app/restaurant-menu-list-details
 
 # 📁 Project Structure
+
 src/
 │── components/
 │   ├── Header
@@ -122,12 +114,17 @@ src/
 │── App.js
 │── index.js
 
+---
+
 # 🚀 Getting Started
 Install Dependencies
 npm install
 
 # Start the Application
 npm start
+
+---
+
 #### Web Interface
 <a href="https://res.cloudinary.com/dupvp9gj9/image/upload/v1688464566/Restaurant_page_web-view_l7snar.png" target=_blank_ >
     <div style="text-align: center;">
